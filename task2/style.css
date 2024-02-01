@@ -1,0 +1,13 @@
+h1 + p{
+    font-size:20px;
+}
+code{
+    white-space: pre;
+    font-family: Courier ,"Courier New",monospace;
+}
+h3 + p code{
+    color:red;
+}
+h3 ~ p:last-of-type code {
+    color: pink;
+}
