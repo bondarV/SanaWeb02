@@ -1,0 +1,36 @@
+p, h2 {
+    color: green;
+    text-align: center;
+}
+
+#pink {
+    color: pink;
+}
+
+.red {
+    color: red;
+}
+
+a {
+    padding-bottom: 10px;
+    display: block;
+    color: blue;
+}
+
+ul a {
+    color: pink;
+    display: inline-block;
+}
+.green{
+    color:green;
+}
+.withoutmark >li{
+    list-style-type:none;
+}
+
+.squaremark {
+    list-style-type:square;
+}
+.squaremark:last-child a {
+    text-decoration: none;
+}
